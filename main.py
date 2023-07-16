@@ -37,6 +37,7 @@ w = ctk.CTk()
 w.title("Malware detected!")
 w.geometry('450x240')
 w.resizable(False, False)
+w.iconbitmap("icon.ico")
 
 #Fonts:
 default = CTkFont(
